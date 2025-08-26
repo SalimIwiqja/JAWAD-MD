@@ -31,8 +31,8 @@ ANTIBAD: process.env.ANTIBAD || "false",
 BAD_WORDS: process.env.BAD_WORDS || "null, pm, dm, idiot", // Add Yours Separated by Comma(will be deleted if ANTIBAD is set to true)
 ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 Auto Call Reject Mode Active. 📵 No Calls Allowed!_*",
 AUTO_REACT: process.env.AUTO_REACT || "false",
-BOT_NAME: process.env.BOT_NAME || "JAWAD-MD", //  don't change 
-BOT_PIC: process.env.BOT_PIC || "", //  don't change 
+BOT_NAME: process.env.BOT_NAME || "AESON-MD", //  don't change 
+BOT_PIC: process.env.BOT_PIC || "https://i.postimg.cc/ydmNtz0N/125265684b09c7e1dc6ae0d7e0ded4aa.jpg", //  don't change 
 AUTO_AUDIO: process.env.AUTO_AUDIO || "false",
 AUTO_BIO: process.env.AUTO_BIO || "false",
 AUTO_BIO_QUOTE: process.env.AUTO_BIO_QUOTE || "i am aeson md",
