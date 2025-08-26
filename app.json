@@ -2,8 +2,8 @@
   "name": "JAWAD-MD",
   "version": "3.0.0",
   "description": "Javascript WhatsApp bot made by Jᴀᴡᴀᴅ TᴇᴄʜX",
-  "website": "https://files.catbox.moe/neni8p.jpg",
-  "logo": "https://files.catbox.moe/neni8p.jpg",
+  "website": "https://i.postimg.cc/ydmNtz0N/125265684b09c7e1dc6ae0d7e0ded4aa.jpg",
+  "logo": "https://i.postimg.cc/ydmNtz0N/125265684b09c7e1dc6ae0d7e0ded4aa.jpg",
   "keywords": ["jawad-md", "JAWAD XMD","jawad xmd","JAWAD-MD"],
   "repository": "https://github.com/JawadTechXD/JAWAD-MD",
   "success_url": "/",
@@ -22,17 +22,17 @@
     "OWNER_NAME": {
       "description": "Put Owner Name Here",
       "required": true,
-      "value": "JawadTechX"
+      "value": "Salim"
     },
     "BOT_PIC": {
       "description": "add a pic url for bot dp",
       "required": false,
-      "value": "https://files.catbox.moe/pf270b.jpg"
+      "value": "https://i.postimg.cc/ydmNtz0N/125265684b09c7e1dc6ae0d7e0ded4aa.jpg"
     },
     "OWNER_NUMBER": {
       "description": "Put only one Owner Number Here ie 92xxxxx",
       "required": true,
-      "value": "923427582273"
+      "value": "212605158422"
     },
     "ANTI_DELETE": {
       "description": "Can be set to 'inboxonly' to recover for personal chats only, 'chatsonly' to recover for groups and personal chats only or 'true' to recover all chats and status updates. Default is 'false'. You can set up this later using .antidelete",
@@ -42,7 +42,7 @@
     "SUDO_NUMBERS": {
       "description": "Put Sudo Numbers separated by comma Here ie 92xxxx,92xxxxx,92xxxxx. Sudos have same rights as owner(can command the bot). if you don't want leave the space empty",
       "required": false,
-      "value": "923427582273"
+      "value": "212677876859"
     },
     "CHAT_BOT": {
       "description": "Put value to 'true' to enablle for all chats or 'inbox' to ebanle in pm(inbox) chats only or 'groups' to enable in groups only else false. You can set up this later using .chatbot",
@@ -52,12 +52,12 @@
     "AUTO_READ_STATUS": {
       "description": "Make it 'true' if you want bot to view statuses. You can set up this later using .autoview",
       "required": true,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_LIKE_STATUS": {
       "description": "Make it 'true' if you want bot to read and like statuses. You can set up this later using .autolike",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_LIKE_EMOJIS": {
       "description": "Input your custom status like emoji(s) else leave to use default emojis. Only works if autolike status is 'true'",
