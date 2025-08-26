@@ -1,40 +1,19 @@
-/*  
-==============================================
-🚀 JAWAD-MD v3.0.0 — Official Release  
-==============================================
-💡 Next-Gen WhatsApp MD Bot for 2025  
-🔥 Ultra-Fast | Smart AI | Packed with Features  
-
-📌 Developed & Maintained By: JawadTech  
-❤️ Crafted with Passion, Built for Performance  
-
-⚠️ Note: Old deployment repository is now closed.  
-✅ Deploy only from the NEW official repository.  
-
-Powered By → JawadTechX | 2025 🚀
-==============================================
-*/
-
-const { Client } = require('whatsapp-web.js'); // or Baileys if you use it
+const { Client } = require('whatsapp-web.js');
 const fs = require('fs');
-const path = require('path');
 
-// Load session from config
-let sessionData;
-const sessionPath = path.join(__dirname, 'config', 'session.json');
+const sessionPath = './session.json'; // session file in root
 
-if (fs.existsSync(sessionPath)) {
-    sessionData = require(sessionPath);
-    console.log('Session loaded successfully.');
-} else {
-    console.log('No session found, bot will not run.');
-    process.exit(1); // stop if no session
+if (!fs.existsSync(sessionPath)) {
+    console.log('❌ No session found. Bot will exit.');
+    process.exit(1);
 }
+
+const sessionData = require(sessionPath);
 
 const client = new Client({ session: sessionData });
 
 client.on('ready', () => {
-    console.log('✅ JAWAD-MD Bot is now online!');
+    console.log('✅ JAWAD-MD Bot is online!');
 });
 
 client.on('message', msg => {
